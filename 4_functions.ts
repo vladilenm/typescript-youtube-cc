@@ -16,6 +16,7 @@ interface MyPositionWithDefault extends MyPosition {
 }
 
 function position(): MyPosition
+// @ts-ignore
 function position(a: number): MyPositionWithDefault
 function position(a: number, b: number): MyPosition
 
